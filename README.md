@@ -1,6 +1,7 @@
 ﻿# Erv's TS Kitty
 
-A shareable blueprint for running a multi-agent TypeScript error reduction program. Ready to let a mischievous kitty claw down your TS backlog. It captures the prompts, guardrails, and helper tooling we used to cut thousands of compiler errors without breaking production logic.
+A shareable blueprint for running a multi-agent TypeScript error reduction program. "Ready to let a mischievous pussy claw down your TS backlog." - Thirsty Calwed Code 
+It captures the prompts, guardrails, and helper tooling I used to cut thousands of compiler errors without breaking production logic. Oh, I broke it so many times before... circles of circles.
 
 ## What's Inside
 - **agents/** – ready-to-use prompts for coordinator, fixer, reviewer, and pattern librarian roles
@@ -12,7 +13,8 @@ A shareable blueprint for running a multi-agent TypeScript error reduction progr
 ## Why Publish This
 - Demonstrated success: reduced >80% of errors in a large codebase while protecting critical logic
 - Emphasis on safety: guardrails insist on verifying events, state, and precision maths
-- Repeatable process: batch orchestration, reporting templates, and pattern capture lower future effort
+- Repeatable process: batch orchestration, reporting templates, and pattern capture lower future effort 
+- Eventually Claude or whatever you use will tell you that there are remainig errors it should fix one at a time if they're more complex.
 
 ## Quick Start
 1. Copy this folder into a repo that already runs `npx tsc --noEmit`
@@ -30,10 +32,6 @@ A shareable blueprint for running a multi-agent TypeScript error reduction progr
 5. Track progress in a log similar to `TYPE_ERROR_FIX_PROGRESS.md`
 6. Document new lessons in `docs/patterns/`
 
-## Publishing Tips
-- Replace organisation-specific names before sharing publicly
-- Add an OSS licence (MIT, Apache-2.0, etc.)
-- Provide a real-world session example so others can see the flow
 
 ## Compatibility
 - Works with Node 18+
